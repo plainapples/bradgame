@@ -1,0 +1,89 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #f4bf42
+    }
+	
+    30% {
+        background-color: #fff600
+    }
+
+    60% {
+        background-color: #f4bf42
+    }
+	
+    100% {
+        background-color: #fff600
+    }
+}
+
+a:hover{
+	cursor:crosshair;
+}
+
+
+html:hover{
+	cursor:crosshair;
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.lol{
+	color:#424549;
+	font-family: "Helvetica", cursive, sans-serif;
+	font-size:24px;
+	text-align:center;
+	width:700px;
+	height:300px;
+	margin: 0 auto;
+}
+
+.bruh{
+	background:white;
+	border-radius:35px;
+	margin: 0 auto;
+}
+
+.bigbox{
+	background:white;
+	border-radius:35px;
+	margin: 0 auto;
+	height:700px;
+	width:700px;
+}
+
+.loltwo{
+	color:#424549;
+	font-family: "Helvetica", cursive, sans-serif;
+	font-size:24px;
+	width:700px;
+	height:300px;
+	text-align:center;
+}
+
+a:link{
+	color:#424549;
+}
+
+a:active{
+	color:#424549;
+}
+
+a:visited{
+	color:#424549;
+}
+
+.small{
+	text-align:center;
+	margin:0 auto;
+}
+
+.bruhtwo{
+	left:150px;
+	top:150px;
+	text-align: center;
+}

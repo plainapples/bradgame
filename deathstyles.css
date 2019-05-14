@@ -1,0 +1,159 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #ff2100
+    }
+	
+    30% {
+        background-color: #934438
+    }
+
+    60% {
+        background-color: #771d0f
+    }
+	
+    100% {
+        background-color: #911300
+    }
+}
+img {
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+}
+strong {
+    -webkit-animation: blink 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+	10% {
+		opacity: 0;
+	}
+	15% {
+		opacity: 1;
+	}
+    20% {
+        opacity: 0;
+    }
+	25%{
+		opacity: 1;
+	}
+	30% {
+		opacity: 0;
+	}
+	35%{
+		opacity: 1;
+	}
+	40% {
+		opacity: 0;
+	}
+	45%{
+		opacity: 1;
+	}
+    50% {
+        opacity: 0;
+    }
+	55% {
+		opacity: 1;
+	}
+	60%{
+		opacity: 0;
+	}
+	65%{
+		opacity: 1;
+	}
+	70%{
+		opacity: 0;
+	}
+	75%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 0;
+	}
+	85%{
+		opacity: 1;
+	}
+	90%{
+		opacity: 0;
+	}
+	95%{
+		opacity: 1;
+	}
+    100% {
+        opacity: 0;
+    }
+}
+
+a:hover{
+	cursor:crosshair;
+}
+
+
+html:hover{
+	cursor:crosshair;
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.lol{
+	color:#424549;
+	font-family: "Helvetica", cursive, sans-serif;
+	font-size:24px;
+	text-align:center;
+	width:700px;
+	height:300px;
+	margin: 0 auto;
+}
+
+.bruh{
+	background:white;
+	border-radius:35px;
+	margin: 0 auto;
+}
+
+.bigbox{
+	background:white;
+	border-radius:35px;
+	margin: 0 auto;
+	height:700px;
+	width:700px;
+}
+
+.loltwo{
+	color:#424549;
+	font-family: "Helvetica", cursive, sans-serif;
+	font-size:24px;
+	width:700px;
+	height:300px;
+	text-align:center;
+}
+
+a:link{
+	color:#424549;
+}
+
+a:active{
+	color:#424549;
+}
+
+a:visited{
+	color:#424549;
+}
+
+.small{
+	text-align:center;
+	margin:0 auto;
+}
+
+.bruhtwo{
+	left:150px;
+	top:150px;
+	text-align: center;
+}
